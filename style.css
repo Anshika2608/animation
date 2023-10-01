@@ -2,18 +2,25 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    text-decoration: none;
 }
-.sign-up{
+.form-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+ }
+.form-container{
     padding:63px 78px 50px;
     height:525px;
     background-color: #0093E9;
     background-image: linear-gradient(160deg, #0093E9 0%, #22e5cf 50%, #1218e9 100%);
     width:424px;
     text-align: center;
-    color:white;
-    
+    color:white;    
 }
-.sign-up h1{
+.form-container h1{
     margin-bottom: 20px;
     font-size: 40px;
 }
@@ -30,24 +37,87 @@
     color:black;
     font-size: larger;
 }
-.sign-up p{
+.form-container p{
     margin:16px 0px 20px 10px;
     font-size: large;
 }
- .sign-up button{
+ .form-container button{
     padding:8px;
     height:34px;
     width:102px;
     border-radius: 9px;
     margin:22px;
+    font-weight: bold;
  }
- .sign-up a{
+ .form-container a{
     margin-left: 6px;
  }
- #p1{
-    margin:19px 0px 0px 10px;
+ #a1{
+    margin-top:22px;
+    font-size: large;
  }
- .form-section{
-    display:flex;
-    flex-direction: row;
+ #a1 a{
+    color:white;
  }
+  .sign-in {
+ 
+    position:relative;
+    z-index:  1;
+}
+
+    
+.overlap-right{
+    position:absolute;
+    top:163px;
+    background-color: #f18649;
+    z-index:-1;
+    background-image: linear-gradient(62deg, #f18649 0%, #f7ba20 100%);
+    left:759px;
+    width:424px;
+    height:526px;
+    padding:175px 38px 76px;
+    text-align: center;
+    color:aliceblue;
+}
+#sign{
+    left: 0;
+    /* width: 50%; */
+    z-index: -1;  
+    position:relative; 
+    /* opacity: 1;  */
+} 
+.overlap-left{
+position:absolute;
+top:162px;
+background-color: #f18649;
+z-index:1;
+background-image: linear-gradient(62deg, #f18649 0%, #f7ba20 100%);
+width:424px; 
+left:335px;
+height:526px;
+padding:175px 38px 76px;
+text-align: center;
+color:aliceblue;
+}
+.overlap button{
+    margin-top:20px;
+    height:40px;
+    width:90px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.overlap-right h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.overlap-right p{
+    font-size:20px;
+    line-height: 28px;
+}
+.overlap-left p{
+    font-size: 25px;
+    line-height:35px;
+}
+
+
+ 
