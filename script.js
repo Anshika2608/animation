@@ -7,6 +7,7 @@ function changezindex(){
     document.getElementById("sign").style.zIndex="1";
     document.getElementById("sign").style.transform="translateX(425px)";
     document.getElementById("right").style.transform="translateX(-425px)";
+    // document.getElementById("left1").style.transform="translateY(100px)";
     //document.getElementById("sign-in1").style.transform="translateX(-425px)";
     //document.getElementById("left").style.transform="translateX(425px)";
 }

@@ -171,9 +171,15 @@ transition: transform 0.4s;
     font-size: 30px;
     font-weight: bold;
 }
-.overlap-left div{
+.overlap-left .p1{
     margin-bottom: 20px;
 }
+/* .overlap-left #left1{
+    
+}  */
+/* .overlap-right #right1{
+    transform:translateY(0);
+} */
 
 
 
