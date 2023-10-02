@@ -17,14 +17,43 @@
     overflow: hidden;
     z-index: -3; 
     /* position: absolute; */ 
+body{
+    position: relative;
+    
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+    
+}
+/* .main{
+    /* display:block; */
+    /* text-align: center;
+    font-size: 60px;
+    height: 100px;
+    padding:40px;
+    animation:typing 2s steps(15) infinite,cursor } */
+
+    /* @keyframes typing{
+        from{width:60%}
+        to{
+            width:100%
+        }
+    } */ 
+
  
 .form-section{
+   
+    /* background-color:rgb(103, 103, 103); */
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
     display:flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height:100vh;
-    z-index:2;
+    height:100vh; 
+    /* z-index:2; */
+ }
+ .form-section h1{
+      top:20px;
  }
 .form-container{
     padding:63px 78px 50px;
@@ -37,7 +66,8 @@
 }
 .form-container h1{
     margin-bottom: 20px;
-    font-size: 40px;
+    font-size: 50px;
+    font-weight: bold;
 }
 .form input{
     border-radius: 10px;
@@ -75,60 +105,48 @@
     color:white;
  }
   #sign-in1 {
-    /* border-top-right-radius: 100px; */
     transform:translateX(0);
     transition: transform 0.4s;
     position:relative;
     z-index:1;
 
-}
-
-    
+}  
 #right{
     position:absolute;
     top:178px;
-    background-color:white;
     z-index:-1;
-    /* background-image: linear-gradient(62deg, #f18649 0%, #f7ba20 100%); */
-    left:768px;
+    background-color: #fcecf1;
+    background-image: linear-gradient(0deg, #fcecf1 0%, #B5FFFC 100%);
+    left:766px;
     width:426px;
     height:526px;
     padding:175px 38px 76px;
     text-align: center;
     color:black;
-    /* border-top-right-radius: 100px;
-    border-bottom-right-radius: 100px; */
     transform:translateX(0);
-    transition: transform 0.6s;
-    /* border:2px solid black; */
-    /* border-right: none; */
-    
+    transition: transform 0.4s;
 }
 .sign-up{
     left: 0;
-    /* width: 50%; */
     z-index: -1;  
     position:relative; 
-    /* border-bottom-left-radius: 100px; */
     transform:translateX(0);
-    transition: transform 0.6s;
-    /* opacity: 1;  */
+    transition: transform 0.4s;
 } 
 #left{
 position:absolute;
 top:178px;
-background-color:white;
 z-index:1;
-/* background-image: linear-gradient(62deg, #f18649 0%, #f7ba20 100%); */
+background-color: #fcecf1;
+background-image: linear-gradient(0deg, #fcecf1 0%, #B5FFFC 100%);
 width:424px; 
-left:345px;
+left:343px;
 height:526px;
 padding:175px 38px 76px;
 text-align: center;
 color:black;
 transform:translateX(0);
-transition: transform 0.6s;
-/* border-bottom-left-radius: 100px; */
+transition: transform 0.4s;
 }
 .overlap button{
     margin-top:20px;
@@ -145,9 +163,16 @@ transition: transform 0.6s;
     font-size:20px;
     line-height: 28px;
 }
-.overlap-left p{
+.overlap-left .p3{
     font-size: 25px;
     line-height:35px;
+}
+.p2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.overlap-left div{
+    margin-bottom: 20px;
 }
 
 
