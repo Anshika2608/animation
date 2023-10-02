@@ -8,6 +8,18 @@
     <title>Form</title>
 </head>
 <body>
+    <!-- <section class="wrap">
+         <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <div class="box5"></div>
+        <div class="box6"></div>
+        <div class="box7"></div>
+        <div class="box8"></div>
+        <div class="box9"></div>
+        <div class="box10"></div>
+        <div class="box11"></div> -->
     <section class="form-section">  
     <div class="form-container sign-up" id="sign">
         <h1>SIGN UP</h1>
@@ -28,11 +40,11 @@
                 <a href="https://github.com/Anshika2608" target="_blank"><i class="fa-brands fa-github fa-2xl" style="color:black;"></i></a>
                 <a href="https://www.facebook.com/anshika.mittal.779" target="_blank"><i class="fa-brands fa-facebook fa-2xl" style="color: black;"></i></a>
             </div>
-            <button>SIGN UP</button>
+            <button class="sign-up">SIGN UP</button>
         </form>
         </div>
     </div>
-    <div class="form-container sign-in">
+    <div class="form-container sign-in" id="sign-in1">
         <h1>SIGN IN</h1>
         <div class="form">
         <form action="#">
@@ -55,17 +67,17 @@
     </div>
         <div class="overlap-section">
            <div class="overlap">
-                <div class="overlap-right">
+                <div class="overlap-right" id="right">
                     <h2>LOG IN</h2>
                     <p>Welcome Back!</p>
                     <p>Sign in here,if you already have account</p>
-                    <button>SIGN IN</button>
+                    <button onclick="changezindex1()">SIGN IN</button>
                 </div>
-                <div class="overlap-left">
+                <div class="overlap-left" id="left">
                     <p>Create,</p>
                     <p>Account!</p>
                     <p>Sign up,if you still don't have an account..</p>
-                    <button>SIGN UP</button>
+                    <button onclick="changezindex()">SIGN UP</button>
                 </div>
             </div>
         </div>

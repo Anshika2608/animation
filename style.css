@@ -4,12 +4,27 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+ /* .wrap{ */
+    /* position: absolute; 
+    height:100%;
+    width:100%;
+    background-color: aqua;
+}  */
+/* .wrap div{
+    height:70px;
+    width:70px;
+    border: 2px solid black;
+    overflow: hidden;
+    z-index: -3; 
+    /* position: absolute; */ 
+ 
 .form-section{
     display:flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     height:100vh;
+    z-index:2;
  }
 .form-container{
     padding:63px 78px 50px;
@@ -59,45 +74,49 @@
  #a1 a{
     color:white;
  }
-  .sign-in {
- 
+  #sign-in1 {
+    border-top-right-radius: 100px;
     position:relative;
-    z-index:  1;
+    z-index:1;
 }
 
     
-.overlap-right{
+#right{
     position:absolute;
-    top:163px;
+    top:178px;
     background-color: #f18649;
     z-index:-1;
     background-image: linear-gradient(62deg, #f18649 0%, #f7ba20 100%);
-    left:759px;
+    left:768px;
     width:424px;
     height:526px;
     padding:175px 38px 76px;
     text-align: center;
     color:aliceblue;
+    border-top-right-radius: 100px;
+    
 }
-#sign{
+.sign-up{
     left: 0;
     /* width: 50%; */
     z-index: -1;  
     position:relative; 
+    border-bottom-left-radius: 100px;
     /* opacity: 1;  */
 } 
-.overlap-left{
+#left{
 position:absolute;
-top:162px;
+top:178px;
 background-color: #f18649;
 z-index:1;
 background-image: linear-gradient(62deg, #f18649 0%, #f7ba20 100%);
 width:424px; 
-left:335px;
+left:344px;
 height:526px;
 padding:175px 38px 76px;
 text-align: center;
 color:aliceblue;
+border-bottom-left-radius: 100px;
 }
 .overlap button{
     margin-top:20px;
@@ -118,6 +137,9 @@ color:aliceblue;
     font-size: 25px;
     line-height:35px;
 }
+/* .overlap-left:hover button{
+    z-index:-2;
+} */
 
 
  
