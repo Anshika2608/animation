@@ -4,57 +4,18 @@
     box-sizing: border-box;
     text-decoration: none;
 }
- /* .wrap{ 
-    position: absolute; 
-    height:100%;
-    width:100%;
-    background-color: aqua;
-}  */
-/* .wrap div{
-    height:70px;
-    width:70px;
-    border: 2px solid black;
-    overflow: hidden;
-    z-index: -3; 
-    /* position: absolute; */ 
+
 body{
-    position: relative;
-    /* background-image: url("background1.jpeg");
-    background-size: cover; */
-    /* background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
-    background-blend-mode: multiply,multiply; */
-    
+    position: relative;    
 }
-/* .main{
-    /* display:block; */
-    /* text-align: center;
-    font-size: 60px;
-    height: 100px;
-    padding:40px;
-    animation:typing 2s steps(15) infinite,cursor } */
-
-    /* @keyframes typing{
-        from{width:60%}
-        to{
-            width:100%
-        }
-    } */ 
-
- 
 .form-section{
-   
-    /* background-color:rgb(103, 103, 103); */
-    /* background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
-    background-blend-mode: multiply,multiply; */
     background-image: url("./../assets/background1.jpeg");
     background-size: cover; 
-   
     display:flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     height:100vh; 
-    /* z-index:2; */
  }
  .form-section h1{
       top:20px;
@@ -178,12 +139,7 @@ transition: transform 0.4s;
 .overlap-left .p1{
     margin-bottom: 20px;
 }
-/* .overlap-left #left1{
-    
-}  */
-/* .overlap-right #right1{
-    transform:translateY(0);
-} */
+
 
 
 
